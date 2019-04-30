@@ -4,7 +4,7 @@
 
 ## 爬虫
 
-- [JAV.py](https://github.com/zihunyeyu/pythonpractice/blob/master/JAV.py)
+- [JAV.py](https://github.com/zihunyeyu/pythonpractice/blob/master/%E7%88%AC%E8%99%AB/JAV.py)
 
   > 爬取javzoo网站信息的爬虫
   >

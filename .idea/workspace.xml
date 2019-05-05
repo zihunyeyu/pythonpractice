@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4e82cc-9844-4767-b5dc-5afc6487015c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/BDMovie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="216">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/JAV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#277#547#0" />
+                <element signature="e#576#801#0" />
+                <element signature="e#861#1337#0" />
+                <element signature="e#1365#1909#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +96,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -135,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557033059711</updated>
       <workItem from="1557033061999" duration="757000" />
-      <workItem from="1557049304276" duration="609000" />
+      <workItem from="1557049304276" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1366000" />
+    <option name="totallyTimeSpent" value="1742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -183,8 +202,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/BDMovie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/JAV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#277#547#0" />
+            <element signature="e#576#801#0" />
+            <element signature="e#861#1337#0" />
+            <element signature="e#1365#1909#0" />
+          </folding>
         </state>
       </provider>
     </entry>

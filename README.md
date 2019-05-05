@@ -4,8 +4,18 @@
 
 ## 爬虫
 
-- [JAV.py](https://github.com/zihunyeyu/pythonpractice/blob/master/%E7%88%AC%E8%99%AB/JAV.py)
+- <a href='[https://github.com/zihunyeyu/pythonpractice/blob/master/%E7%88%AC%E8%99%AB/JAV.py](https://github.com/zihunyeyu/pythonpractice/blob/master/爬虫/JAV.py)' style='text-decoration:none;color:GoldenRod'>JAV</a>
 
-  > 爬取javzoo网站信息的爬虫
+  > 目标网站：https://javzoo.com
   >
-  > 使用了requests，BeautifulSoup4，os模块
+  > 功能：输入女优or番号获取AV信息并保存封面，缩略图，磁力链接(https://www.clb8.net)
+  >
+  > 模块：requests，BeautifulSoup，os
+  
+- <a href='https://github.com/zihunyeyu/pythonpractice/blob/master/爬虫/BDMovie.py' style='text-decoration:none;color:DimGray'>BDMovie</a>
+
+  >目标网站：https://www.bd-film.cc/
+  >
+  >功能：输入电影名称获取有关信息，保存下载信息(目标网站获取)
+  >
+  >模块：requests，BeautifulSoup，selenium

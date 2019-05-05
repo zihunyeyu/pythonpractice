@@ -4,7 +4,7 @@
 
 ## 爬虫
 
-- <a href='[https://github.com/zihunyeyu/pythonpractice/blob/master/%E7%88%AC%E8%99%AB/JAV.py](https://github.com/zihunyeyu/pythonpractice/blob/master/爬虫/JAV.py)' style='text-decoration:none;color:GoldenRod'>JAV</a>
+- <a href='https://github.com/zihunyeyu/pythonpractice/blob/master/爬虫/JAV.py' style='text-decoration:none;color:GoldenRod'>JAV</a>
 
   > 目标网站：https://javzoo.com
   >

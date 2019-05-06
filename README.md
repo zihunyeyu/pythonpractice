@@ -19,3 +19,21 @@
   >功能：输入电影名称获取有关信息，保存下载信息(目标网站获取)
   >
   >模块：requests，BeautifulSoup，selenium
+  
+- dang^2books
+
+  >目标网站：http://bang.dangdang.com/books/bestsellers/01.00.00.00.00.00-24hours-0-0-1-1
+  >
+  >功能：爬取热销图书TOP500内容
+  >
+  >模块：requests，re
+
+## 数据分析
+
+- 
+
+-  
+
+-  
+
+  

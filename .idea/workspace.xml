@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4e82cc-9844-4767-b5dc-5afc6487015c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/练习/完美数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/斐波那契数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/水仙花数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/百鸡百钱.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/JAV.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/JAV.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="675">
+                <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,14 +48,16 @@
         <option value="$PROJECT_DIR$/练习/Narcissistic number.py" />
         <option value="$PROJECT_DIR$/练习/Perfect number.py" />
         <option value="$PROJECT_DIR$/练习/百鸡百钱.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/练习/斐波那契数列.py" />
+        <option value="$PROJECT_DIR$/爬虫/chepaishe.py" />
+        <option value="$PROJECT_DIR$/爬虫/JAV.py" />
+        <option value="$PROJECT_DIR$/爬虫/车牌社.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="850" />
-    <option name="y" value="177" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -80,7 +79,7 @@
             <path>
               <item name="pythonpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonpractice" type="b2602c69:ProjectViewProjectNode" />
@@ -96,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/数据可视化" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/untitled" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -116,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.斐波那契数列">
+  <component name="RunManager" selected="Python.车牌社">
     <configuration name="百鸡百钱" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="车牌社" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/斐波那契数列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/车牌社.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,9 +226,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/斐波那契数列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.斐波那契数列" />
+        <item itemvalue="Python.车牌社" />
         <item itemvalue="Python.百鸡百钱" />
         <item itemvalue="Python.Perfect number" />
         <item itemvalue="Python.Narcissistic number" />
@@ -262,21 +283,26 @@
       <workItem from="1557671446848" duration="175000" />
       <workItem from="1557853003730" duration="13000" />
       <workItem from="1558153959388" duration="6575000" />
+      <workItem from="1558185148461" duration="16000" />
+      <workItem from="1558233864483" duration="634000" />
+      <workItem from="1558272334232" duration="295000" />
+      <workItem from="1558272644774" duration="4063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18994000" />
+    <option name="totallyTimeSpent" value="24002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30477223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35791758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,6 +321,31 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30477223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -306,7 +357,7 @@
     <SUITE FILE_PATH="coverage/pythonpractice$JAV.coverage" NAME="JAV Coverage Results" MODIFIED="1557671353155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/pythonpractice$Narcissistic_number.coverage" NAME="Narcissistic number Coverage Results" MODIFIED="1558155072928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
     <SUITE FILE_PATH="coverage/pythonpractice$Perfect_number.coverage" NAME="Perfect number Coverage Results" MODIFIED="1558155435501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
-    <SUITE FILE_PATH="coverage/pythonpractice$.coverage" NAME="斐波那契数列 Coverage Results" MODIFIED="1558160505253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
+    <SUITE FILE_PATH="coverage/pythonpractice$.coverage" NAME="车牌社 Coverage Results" MODIFIED="1558276451882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_config.yml">
@@ -314,16 +365,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/BeautifulGirlsPic.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/dang^2books.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/BDMovie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="e#51#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/AVinfos/MIDE-613_女教師の巨乳チラリズムに我慢できない！ 水卜さくら/MIDE-613_ed2k.txt" />
     <entry file="file://$PROJECT_DIR$/爬虫/AV_MySQL.py" />
     <entry file="file://$PROJECT_DIR$/练习/水仙花数.py">
@@ -337,23 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/JAV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#277#547#0" />
-            <element signature="e#576#801#0" />
-            <element signature="e#861#1337#0" />
-            <element signature="e#1365#1909#0" />
-            <element signature="e#1943#2626#0" />
-            <element signature="e#2659#3470#0" />
-            <element signature="e#3511#4049#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -371,11 +395,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/chepaishe.py" />
+    <entry file="file://$PROJECT_DIR$/爬虫/BDMovie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#51#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/车牌社.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/JAV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" selection-start-line="36" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#277#547#0" />
+            <element signature="e#576#801#0" />
+            <element signature="e#1365#1909#0" />
+            <element signature="e#1943#2626#0" />
+            <element signature="e#2659#3470#0" />
+            <element signature="e#3511#4049#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="675">
+            <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>

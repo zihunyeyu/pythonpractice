@@ -33,6 +33,14 @@
   >功能：输入电影名称获取有关信息，保存下载信息(目标网站获取)
   >
   >模块：requests，BeautifulSoup，selenium
+
+- <a href='https://github.com/zihunyeyu/pythonpractice/blob/master/爬虫/JAV.py' style='text-decoration:none;color:GoldenRod'>车牌社</a>
+
+  >目标网站：https://www.chepaishe1.com/xiyouchepai/
+  >
+  >功能：爬取车牌社稀有车牌
+  >
+  >模块：requests，re, beautifulsoup
   
 - dang^2books
 

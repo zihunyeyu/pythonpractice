@@ -6,6 +6,8 @@ base_url = 'https://javzoo.com'
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36'
 }
+
+
 def makeanewdir(name):
     '''
     在当前目录下新建一个目录
@@ -19,6 +21,8 @@ def makeanewdir(name):
     except FileExistsError:
         print('当前目录下已存在同名目录')
     return newdirpath
+
+
 def get_bs(target_url):
     '''
     获取目标网址的beautifulsoup
@@ -28,6 +32,8 @@ def get_bs(target_url):
     req = requests.get(target_url,headers=headers)
     beautifulsoup = BeautifulSoup(req.text,'html.parser')
     return beautifulsoup
+
+
 def downloadpic(pic_url,name='pic',type='jpg',dir=""):
     '''
     获取图片
@@ -37,7 +43,7 @@ def downloadpic(pic_url,name='pic',type='jpg',dir=""):
     :param dir: 可选保存目录
     :return:
     '''
-    req = s=requests.get(pic_url,headers=headers)
+    req = s=requests.get(pic_url, headers=headers)
     picname = dir+name+'.'+type
     try:
         with open(picname,'wb') as pic:
@@ -47,6 +53,8 @@ def downloadpic(pic_url,name='pic',type='jpg',dir=""):
         makeanewdir(dir)
         with open(dir+name+'.'+type,'wb') as pic:
             pic.write(req.content)
+
+
 def get_maxpages(url):
     '''
     获取搜索结果的最大页数
@@ -63,6 +71,8 @@ def get_maxpages(url):
         return int(next_url.split('/')[-1])
     else:
         return 1
+
+
 def get_ed2k(fanhao,dir=''):
     baseurl1 = 'https://www.clb8.net'
     searchurl = baseurl1+'/s/{}.html'.format(fanhao)
@@ -81,6 +91,8 @@ def get_ed2k(fanhao,dir=''):
     else:
         with open(dir+'该片没资源.txt', 'a+'):
             print(fanhao+'好像没资源哦~')
+
+
 def downloadinfos(AVinfos):
     for info in AVinfos:
         movie_url = info.a['href']
@@ -105,6 +117,8 @@ def downloadinfos(AVinfos):
             bianhao = str(num)
             downloadpic(url,fanhao+'_'+bianhao,type,avdir+'\\')
             num+=1
+
+
 def get_searchinfos(searchmessage):
     '''
     获取搜素目标的信息
@@ -122,6 +136,8 @@ def get_searchinfos(searchmessage):
             time.sleep(3)
     else:
         print('没有相关女优或者作品')
+
+
 def main():
     while True:
         searchmessage = input('输入搜索信息（女优名字或者番号）：')
@@ -129,6 +145,8 @@ def main():
         q = input('继续搜索请输入"yes",输入其他任意字符为退出')
         if q.lower() != 'yes':
             break
+
+
 if __name__ == '__main__':
     motopath = makeanewdir('AVinfos')
     print(motopath)

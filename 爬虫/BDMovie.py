@@ -15,7 +15,7 @@ headers={
 
 def get_downloadlink(moive_url):
     '''
-    爬去bdmovie电影页面的下载链接
+    爬取bdmovie电影页面的下载链接
     :param moive_url: 目标url
     :return: 返回一个下载工具，链接的词典
     '''
